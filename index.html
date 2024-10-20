@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página oficial de AdeAbel - Streamer que está recreando todo dedsafio 3.">
+    <title>AdeAbel - Página Oficial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #001f3f; /* Azul marino */
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 4px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            letter-spacing: 1.5px;
+            animation: fadeInUp 1.2s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons a {
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+            letter-spacing: 2px;
+        }
+
+        .cta-buttons a:hover {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        .bio {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .bio h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .bio p {
+            font-size: 1.2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+            color: white;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.15);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            background-color: #00c6ff;
+        }
+
+        .server-info {
+            margin-top: 100px;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .server-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .server-info p {
+            font-size: 1.2rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #141414;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 3rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            .bio h2 {
+                font-size: 2rem;
+            }
+
+            .bio p {
+                font-size: 1rem;
+            }
+
+            .server-info h3 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AdeAbel</h1>
+    <p>Streamer que está recreando todo dedsafio 3</p>
+    <div class="cta-buttons">
+        <a href="https://discord.gg/G39cHtb" target="_blank">Discord</a>
+        <a href="https://www.youtube.com/adeabel" target="_blank">YouTube</a>
+        <a href="https://twitter.com/AdeAbel_" target="_blank">Twitter</a>
+        <a href="https://www.twitch.tv/adeabel_" target="_blank">Twitch</a>
+    </div>
+</header>
+
+<section class="bio">
+    <h2>Sobre mí</h2>
+    <p>¡Bienvenidos a la página oficial de AdeAbel! Aquí podrás encontrar mis redes y seguir mis aventuras como streamer. ¡Únete a la comunidad y no te pierdas nada!</p>
+    
+    <div class="social-links">
+        <a href="https://discord.gg/G39cHtb" target="_blank">D</a>
+        <a href="https://www.youtube.com/adeabel" target="_blank">Y</a>
+        <a href="https://twitter.com/AdeAbel_" target="_blank">T</a>
+        <a href="https://www.twitch.tv/adeabel_" target="_blank">T</a>
+    </div>
+</section>
+
+<section class="server-info">
+    <h3>Servidor: play.cookieland.xyz</h3>
+    <p>Actualmente cerrado, Actualizaciones en Twitch</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 AdeAbel. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
